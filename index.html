@@ -2,101 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <!--css-->
     <link rel="stylesheet" href="style.css">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>mywebsite</title>
+    <title>Michelle's Website</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!--navigation bar-->
+<body class="body"> 
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand logo" href="#">michelle</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="about.html">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="projects.html">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="skills.html">Skills</a>
         </li>
       </ul>
     </div>
   </div>
-    </nav>
+</nav>
 
-    <div class="hero">
-        <h1 class="bigtext">Michelle</h1>
+    <section class="hero">
+        <div class="hero-left">
+                    <h1>
+                        MICHELLE'S
+                        <br>
+                        PORTFOLIO
+                    </h1>
+                    <div class=yellowline></div>
+                    <h2>
+                        Beginner Coder
+                        <br>
+                        Sharing my first website with you!
+                    </h2>
 
-        <div class="letter">
-            <h1 class="text1">Hi! My name is Michelle.</h1>
-            <p class="text2">I go to Nazareth Regional High School. I am a honors student and I enjoy cheerleading. </p>
-            <p class="text2"> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <p class="text2">Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software including versions of Lorem Ipsum.</p>
+                    <a href="about.html" class="btn-talk">about me →</a>
+                    </div>
+
+                <!--right side-->
+                    <div class="hero-right">
+                        <div class="subway-map">
+
+                          <svg class="trainlines" viewBox="0 0 700 700">
+                            <path class="line green-line" d="M120 60 L120 160 Q120 190 150 190 L260 190"/>
+                            <path class="line yellow-route" d="M260 190 L260 270 Q260 300 290 300 L450 300"/>
+                            <path class="line orange-route" d="M450 300 L450 400"/>
+                            <path class="line red-route" d="M450 400 L450 500 Q450 540 410 540 L360 540 Q320 540 320 580 L320 620"/>
+                            <path class="line purple-route" d="M320 620 L430 620 Q470 620 470 660"/>
+                          </svg>
+
+                            <a href="index.html" class="stop stop1">
+                                <div class="greencircle"></div>
+                                <div>
+                                    <b>01</b>
+                                    <h3>Home</h3>
+                                    <p>Start Here!</p>
+                                </div>
+                            </a>
+
+                            <a href="about.html" class="stop stop2">
+                                <div class="yellowcircle"></div>
+                                <div>
+                                    <b>02</b>
+                                    <h3>About Me</h3>
+                                    <p>My Life</p>
+                                </div>
+                            </a>
+
+                            <a href="projects.html" class="stop stop3">
+                                <div class="orangecircle"></div>
+                                <div>
+                                    <b>03</b>
+                                    <h3>Projects</h3>
+                                    <p>Things I've Built!</p>
+                                </div>
+                            </a>
+
+                            <a href="skills.html" class="stop stop4">
+                                <div class="redcircle"></div>
+                                <div>
+                                    <b>04</b>
+                                    <h3>Skills</h3>
+                                    <p>All my Skills!</p>
+                                </div>
+                            </a>
+
+                            <div class="stop stop5">
+                                <div class="purplecircle"></div>
+                                <div>
+                                    <b>05</b>
+                                    <h3>Next Stop</h3>
+                                    <p>Greater Things ☆</p>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
         </div>
-    </div>
-
-    <div class="section2">
-        <div class="card" style="width: 18rem;">
-            <img src="images/plumeria-for-sale.webp" class="card-img-top" alt="...">
-            <div class="card-body">
-            <p class="card-text">I am a cheerleader and I enjoy what I do .</p>
-    </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="images/puppy1.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text"> received valedictorian in middle school and went on to achieve honors in highschool.</p>
-        </div>
-    </div>
-
-    <div class="card" style="width: 18rem;">
-        <img src="images/puppy2.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-            <p class="card-text">I like puppies.</p>
-        </div>
-    </div>
-
-    </div>
+    </section>
 
     <footer class="myfooter">
-        <h4 class="footertext">7z© 2026 Michelles website. All rights reserved.</h4>
+        <h4 class="footertext">© 2026 Michelles website. All rights reserved.</h4>
     </footer>
 
-
-    <!--
-    <h1 class="headerr">Michelle</h1>
-    <h2>Pretty Girl</h2>
-    <p class="paragraph">I go to school at Naz</p>
-    <img src="images\download.jpg" alt="flowers" class="myimg">
-
-    <div class="pictures">
-        
-        <div class="minidiv">
-            <img src="images/download.jpg" alt="flowers" class="indpic"> 
-            <h3>Pic 1</h3>
-        </div>
-       
-        <div class="minidiv">
-            <img src="images/puppy1.jpg" alt="puppy1" class="indpic"> 
-            <h3>Pic 2</h3>
-        </div>
-
-        <div class="minidiv">
-            <img src="images/puppy2.jpg" alt="puppy2" class="indpic">
-            <h3>Pic 3</h3>
-        </div>
-    </div>
-    -->
 </body>
 </html>
