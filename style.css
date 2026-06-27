@@ -80,8 +80,9 @@ body{ /*body duh*/
     background-repeat: no-repeat;
 }
 .hero h1{ /*huge words, michelle portfolio*/
-    font-size: 4rem;
-    font-weight: 900;
+    font-family: "Aldrich", sans-serif;
+    font-size: 4.7rem;
+    font-weight: 700;
     line-height: 1;
     color: var(--text);
 
@@ -510,7 +511,7 @@ background: #d92f2f;
 }
 
 .signtext p{
-    font-family: "SN Pro", sans-serif;
+    font-family: "Aldrich", sans-serif;
     margin: 0;
     font-size: 1.2rem;
 }
@@ -639,7 +640,7 @@ background: #d92f2f;
 }
 
 .nextstop h2{
-    font-family: "SN Pro", sans-serif;
+    font-family: "Aldrich", sans-serif;
     margin: 5px 0 0;
     font-size: 1.8rem;
     display: inline-flex;
@@ -648,7 +649,7 @@ background: #d92f2f;
 
 .nextstop span{
     background: #d92f2f;
-    padding: 10px 12px;
+    padding: 10px 10px;
     border-radius: 50%;
     font-size: 1rem;
     font-weight: 600;
